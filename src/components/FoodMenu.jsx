@@ -32,12 +32,12 @@ function FoodMenu() {
       <FoodItem tipoDePlato="Postre" nombreDePlato="Tres Leches" emoji="🍰"/>
 
       {/* //* ejemplo de si la data de comida estuviera en un array */}
-      {food.map((eachFood) => {
+      {/* {food.map((eachFood) => {
         return (
           <FoodItem tipoDePlato={eachFood.type} nombreDePlato={eachFood.name}emoji={eachFood.emoji}/>
           // <FoodItem food={eachFood}/>
         )
-      })}
+      })} */}
 
     </div>
   )
